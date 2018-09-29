@@ -13,7 +13,7 @@
  }))
 
  app.use(methodOverride("_method"));
- app.engine("hanlebars", exphbs({
+ app.engine("handlebars", exphbs({
      defaultLayout: "main"
  }));
  app.set("view engine", "handlebars");
